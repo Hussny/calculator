@@ -6,7 +6,7 @@ body{
 #container{
     width: 1000px;
     height: 550px;
-    background-image: url("a.jpg");
+    background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("a.jpg");
     margin: 20px auto;
 }
 #calculator{
@@ -19,4 +19,24 @@ body{
     border-radius:5px ;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
+}
+#result{
+    height: 120px;
+}
+#history{
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #919191;
+}
+#output{
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+}
+#keyboard{
+    height: 400px;
 }
